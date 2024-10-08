@@ -11,7 +11,10 @@ center{
   font-size: 1px;
 }
 #code-ht{
-  width: 98%;
+  position: absolute;
+  left: 3%;
+  top: 8%;
+  width: 45%;
   height: 200px;
   background-color: #000011;
   color: #00ff00;
@@ -19,7 +22,10 @@ center{
   font-size: 17px;
 }
 #code-cs{
-  width: 98%;
+  position: absolute;
+  left: 3%;
+  top: 40%;
+  width: 45%;
   height: 200px;
   background-color: #000011;
   color: #00c3ff;
@@ -27,7 +33,10 @@ center{
   font-size: 17px;
 }
 #code-js{
-  width: 98%;
+  position: absolute;
+  left: 3%;
+  top: 72%;
+  width: 45%;
   height: 200px;
   background-color: #000011;
   color: #ffff00;
@@ -35,26 +44,68 @@ center{
   font-size: 17px;
 }
 #run{
+  position: absolute;
+  left: 92%;
+  top: 1%;
   background-color: #00ff00;
   border: 0;
-  border-radius: 50px;
+  border-radius: 8px;
   padding: 10px;
-  width: 400px;
+  width: 100px;
   font-size: 20px;
 }
 #cls{
+  position: absolute;
+  left: 84%;
+  top: 1%;
   background-color: #ff0000;
   border: 0;
-  border-radius: 50px;
-  padding: 12px;
-  width: 400px;
+  border-radius: 8px;
+  padding: 11px;
+  width: 100px;
+  font-size: 20px;
+}
+#full{
+  position: absolute;
+  left: 72%;
+  top: 1%;
+  background-color: #ffff00;
+  border: 0;
+  border-radius: 8px;
+  padding: 11px;
+  width: 150px;
+  font-size: 20px;
+}
+#close{
+  position: absolute;
+  left: 92%;
+  top: 93%;
+  background-color: #ff0000;
+  border: 0;
+  border-radius: 8px;
+  padding: 11px;
+  width: 100px;
   font-size: 20px;
 }
 #out{
+  position: absolute;
+  left: 49%;
+  top: 8%;
   border-color: #00ff00;
   background-color: auto;
-  width: 100%;
+  width: 50%;
   height: 600px;
+  border: 1 solid;
+  border-radius: 10px;
+}
+#out2{
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  border-color: #00ff00;
+  background-color: auto;
+  width: 98%;
+  height: 98%;
   border: 1 solid;
   border-radius: 10px;
 }
@@ -71,4 +122,40 @@ center{
 #s2{
   color: #00ff00;
   font-size: 90px;
+}
+#ht{
+  position: absolute;
+  left: 0%;
+  top: 6%;
+  color: #00ff00;
+}
+#cs{
+  position: absolute;
+  left: 0%;
+  top: 36%;
+  color:#00c3ff;
+}
+#js{
+  position: absolute;
+  left: 1%;
+  top: 68%;
+  color:#ffff00;
+}#media{
+  position: absolute;
+  left: 0%;
+  top: 150%;
+}
+#er{
+  position: absolute;
+  left: 0%;
+  top: 108%;
+}
+dialog{
+  position: absolute;
+  left: 1%;
+  top: 3%;
+  border-radius: 16px;
+  width: 90%;
+  height: 90%;
+  z-index: 50;
 }
