@@ -1,4 +1,3 @@
-
 function run(){
   try{
     var ht = document.getElementById("code-ht").value;
@@ -23,6 +22,18 @@ function cls(){
     er.innerHTML = "<h3 id='ner'>errors</h3>";
     out.contentDocument.body.innerHTML = "";
 }
-functionfull(){
-    var com = ocument.getElementById("full");
+/*functionfull(){
+    var com = document.getElementById("full");
+}*/
+
+var close = document.getElementById("close");
+var comp = document.getElementById("comp");
+var full = document.getElementById("full");
+
+full.onclick = ()=> {
+  comp.setAttribute("open","true");
+}
+
+close.onclick = ()=> {
+  comp.removeAttribute("open");
 }
